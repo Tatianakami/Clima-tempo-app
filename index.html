@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Condições do Tempo</title>
+</head>
+<body>
+    <div class="sun"></div>
+    <div class="clouds">
+        <div class="cloud" style="top: 10%; left: 0;"></div>
+        <div class="cloud" style="top: 30%; left: 50%;"></div>
+        <div class="cloud" style="top: 50%; left: 100%;"></div>
+    </div>
+
+    <main>
+        <h1>Condições do Tempo</h1>
+
+        <section id="search-form">
+            <form>
+                <input id="input-localizacao" type="text" placeholder="Digite a cidade" />
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section id="tempo-info"></section>
+    </main>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
